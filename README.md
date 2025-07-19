@@ -1,15 +1,10 @@
-Here’s a clean, professional `README.md` tailored for your GitHub project submission, Mahaboob — with all the tech stack notes, instructions, and review guidance bundled ✨
 
----
-
-```md
 # Wellness Scheduler
 
-A full-stack appointment scheduling app with real-time updates using Redis and ActionCable. Built with **React + Vite**, **Rails API**, **PostgreSQL**, and **Redis** — Dockerized for easy deployment and testing.
+A full-stack appointment scheduling app with real-time updates using Redis and ActionCable.
 
 ---
-
-## Tech Stack
+## Tech Stack Used
 
 - **Frontend:** React + Vite + HTML/CSS
 - **Backend:** Ruby on Rails (REST API)
@@ -88,11 +83,6 @@ Supports real-time broadcast on CRUD via Redis.
 
 ---
 
-## Demo Tips
-
-- Works locally via `localhost`
-- 
-
 ## Cleanup
 
 To stop and remove containers:
@@ -105,3 +95,10 @@ To remove volumes:
 ```bash
 docker-compose down -v
 ```
+
+## Pending Tasks & Features
+
+- Application works locally via `localhost`
+- Working on deploying to AWS for Demo.
+- Enhancing the UX for Mobile View
+- Developing optional features
