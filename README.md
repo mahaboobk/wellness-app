@@ -31,6 +31,8 @@ cd wellness-app
 
 ### 2. Build and Run Services
 ```bash
+Set up docker on machine
+docker login
 docker-compose build
 docker-compose up
 
